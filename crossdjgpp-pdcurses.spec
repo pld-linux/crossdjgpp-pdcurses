@@ -7,6 +7,7 @@ Epoch:		1
 License:	GPL
 Group:		Development/Libraries
 Source0:	ftp://ftp.delorie.com/djgpp/v2misc/pdcur%{version}s.zip
+# Source0-md5:	3b64ba93ec3fce02dcb185f6fb5cbe5f
 BuildRequires:	crossdjgpp-gcc
 Requires:	crossdjgpp-gcc
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
