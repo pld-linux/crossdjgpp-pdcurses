@@ -2,17 +2,19 @@ Summary:	PD Curses for DJGPP
 Summary(pl):	PD Curses dla DJGPP
 Name:		crossdjgpp-pdcurses
 Version:	24
-Release:	2
+Release:	3
 Epoch:		1
 License:	GPL
 Group:		Development/Libraries
-Source0:	ftp://ftp.delorie.com/djgpp/v2misc/pdcur%{version}s.zip
+Source0:	ftp://ftp.delorie.com/pub/djgpp/current/v2tk/pdcur%{version}s.zip
 # Source0-md5:	3b64ba93ec3fce02dcb185f6fb5cbe5f
 BuildRequires:	crossdjgpp-gcc
 Requires:	crossdjgpp-gcc
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define target i386-pc-msdosdjgpp
+%define	no_install_post_strip	1
+
 
 %description
 PD Curses for DJGPP.
