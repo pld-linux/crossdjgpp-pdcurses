@@ -41,7 +41,6 @@ install obj/libpdcurses.a obj/libpanel.a $RPM_BUILD_ROOT%{_prefix}/%{target}/lib
 ln -sf libpdcurses.a $RPM_BUILD_ROOT%{_prefix}/%{target}/lib/libcurses.a
 
 mv -f maintain.er MAINTAINER
-gzip -9nf README MAINTAINER TODO readme.*
 
 # .man suffix is misleading...
 for f in intro latin-1 overview x11 ; do
@@ -53,6 +52,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README MAINTAINER TODO readme.*
 %{_prefix}/%{target}/lib/*
 %{_prefix}/%{target}/include/*
