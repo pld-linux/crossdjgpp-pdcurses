@@ -2,7 +2,7 @@ Summary:	PD Curses for DJGPP
 Summary(pl):	PD Curses dla DJGPP
 Name:		crossdjgpp-pdcurses
 Version:	24
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL
 Group:		Development/Libraries
