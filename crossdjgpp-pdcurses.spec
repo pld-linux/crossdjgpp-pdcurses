@@ -9,6 +9,7 @@ Group:		Development/Libraries
 Source0:	ftp://ftp.delorie.com/pub/djgpp/current/v2tk/pdcur%{version}s.zip
 # Source0-md5:	3b64ba93ec3fce02dcb185f6fb5cbe5f
 BuildRequires:	crossdjgpp-gcc
+BuildRequires:	unzip
 Requires:	crossdjgpp-gcc
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
