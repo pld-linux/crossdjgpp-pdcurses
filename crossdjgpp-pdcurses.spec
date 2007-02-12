@@ -1,5 +1,5 @@
 Summary:	PD Curses for DJGPP
-Summary(pl.UTF-8):   PD Curses dla DJGPP
+Summary(pl.UTF-8):	PD Curses dla DJGPP
 Name:		crossdjgpp-pdcurses
 Version:	24
 Release:	4
